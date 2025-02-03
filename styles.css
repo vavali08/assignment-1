@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D0EFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100vw;
+    background: #A0D8FF;
+    padding: 15px;
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: hidden;
+}
+.warning {
+    background: #FF9800;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.section {
+    background: #5C677D;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+.hourly-forecast {
+    display: flex;
+    flex-direction: column;
+}
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    margin-top: 10px;
+}
+.outfit-planner, .week-forecast {
+    flex: 1;
+    padding: 15px;
+    border-radius: 5px;
+    background: #5C677D;
+    color: white;
+}
+.hourly-item, .week-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.outfit-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.accessories {
+    margin-top: 10px;
+    text-align: center;
+}
