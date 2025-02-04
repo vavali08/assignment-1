@@ -2,20 +2,19 @@
 <html>
     <head>
         <link href="/styles.css" rel="stylesheet" />
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-        </style>
         <title>Weather App</title>
-        <link rel="stylesheet" href="styles.css">
     </head> 
     <body>
         <div class="container">
             <div class="warning">⚠️ Thunderstorm Warning ⚠️</div>
             <div class="section">
                 <h2>Currently</h2>
+                <img src="/assets/cloud.png" alt="Clouds" class = "cloud-img">
                 <p><strong>42° F</strong> - Cloudy</p>
                 <p>Feels Like 40° F</p>
-                <p>Air Quality: 33 | Humidity: 84% | UV Index: 2</p>
+                <p class="air-quality">Air Quality: 33</p>
+                <p class="humidity">Humidity: 84%</p>
+                <p class="uv-index">UV Index: 2</p>
             </div>
             <div class="section hourly-forecast">
                 <h3>Hourly Forecast</h3>
