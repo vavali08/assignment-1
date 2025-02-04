@@ -10,6 +10,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     margin-top: 0;
+    margin-bottom: 0;
     padding-left: 5px;
 }
 h3 {
@@ -54,6 +55,64 @@ p {
     border-radius: 5px;
     color: white;
     margin-top: 1px;
+}
+.currently {
+    background: 
+        url('/assets/cloud.png') no-repeat left center, 
+        radial-gradient(circle, #9bb4c2, #286181); 
+    background-size: 50% auto, cover; 
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.currently h2 {
+    text-align: left;
+    width: 100%;
+    margin-right: 15px; 
+}
+
+.current-temp {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+.weather-condition {
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+}
+.current-stats {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.current-stats p {
+    background-color: rgba(58, 79, 99, 0.27);
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+/* Styling for the "Feels Like" text */
+.feels-like {
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    margin-top: 10px;
 }
 /* hourly forecast*/
 .hourly-forecast {
@@ -183,10 +242,18 @@ p {
 .accessories {
     display: flex;
     flex-direction: column;
-    margin-top: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: left;
     font-size: 16px;
     font-weight: bold;
+}
+
+.accessory-img {
+    width: 50px;
+    height: auto;
+    max-height: 50px;
+
 }
 /* images */
 .cloud-img {

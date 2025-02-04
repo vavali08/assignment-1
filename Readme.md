@@ -3,7 +3,9 @@ I generally relied on the W3 Schoos CSS tutorials to help with my UI creation, a
 
 Some specific links I used other than general CSS tutorials:
 https://www.w3schools.com/css/css3_gradients_radial.asp
-https://stackoverflow.com/questions/58038668/css-text-orientation-vertically-oriented-to-the-right
+https://stackoverflow.com/questions/58038668/css-text-orientation-vertically-oriented-to-the-right (for outfit tabs)
+https://www.w3schools.com/css/css3_backgrounds.asp (for layered backgrounds)
+https://sentry.io/answers/how-to-change-the-css-background-opacity-of-an-element/
 
 Image Sources:
 https://www.freeiconspng.com/img/34472
