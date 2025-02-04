@@ -114,6 +114,7 @@ p {
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    font-family: Nunito;
     border-bottom: 1px solid #ccc;
 }
 .outfit-item {
@@ -135,4 +136,10 @@ p {
 .small-img {
     width: 60px;
     height: auto;
+}
+
+.week-forecast-img {
+    width: 25px;
+    height: auto;
+    margin-left: 60px;
 }
