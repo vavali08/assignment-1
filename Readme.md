@@ -6,6 +6,7 @@ https://www.w3schools.com/css/css3_gradients_radial.asp
 https://stackoverflow.com/questions/58038668/css-text-orientation-vertically-oriented-to-the-right (for outfit tabs)
 https://www.w3schools.com/css/css3_backgrounds.asp (for layered backgrounds)
 https://sentry.io/answers/how-to-change-the-css-background-opacity-of-an-element/
+I used chatgpt for general questions such as "how to right align and left align different text objects within a container" and "how to create a sideways tab layout within a div." ChatGPT provided some examples but I synthesized the code on my own.
 
 Image Sources:
 https://www.freeiconspng.com/img/34472

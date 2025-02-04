@@ -56,6 +56,7 @@ p {
     color: white;
     margin-top: 1px;
 }
+/* currently section */
 .currently {
     background: 
         url('/assets/cloud.png') no-repeat left center, 
@@ -67,8 +68,6 @@ p {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     position: relative;
 }
 .currently h2 {
@@ -107,7 +106,6 @@ p {
     font-weight: bold;
     margin: 5px 0;
 }
-/* Styling for the "Feels Like" text */
 .feels-like {
     font-size: 16px;
     font-weight: normal;
@@ -120,8 +118,6 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    overflow-x: auto;
-    white-space: nowrap;
     padding: 10px;
 }
 .hourly-time {
@@ -137,13 +133,6 @@ p {
     text-align: top;
     font-family: Nunito;
     min-width: 40px;
-    justify-content: flex-start;
-}
-.hourly-item span {
-    display: block;
-    height: auto; 
-    line-height: normal;
-    margin-bottom: 5px; 
 }
 .hourly-item img {
     width: 40px; 
@@ -158,32 +147,25 @@ p {
 /* container for outfit planner and weekly forecast */
 .forecast-container {
     display: flex;
-    justify-content: center;
     gap: 1px;
     margin-top: 1px;
 }
 .outfit-planner, .week-forecast {
     flex: 1;
     padding: 5px;
+    text-align: left; 
     border-radius: 5px;
     background: radial-gradient(circle, #9bb4c2, #286181);
     color: white;
 }
 .week-item {
     display: flex;
-    justify-content: space-between;
-    padding: 5px;
+    padding: 7px;
     font-family: Nunito;
     border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
 }
-.outfit-planner {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-}
-
+/* outfit planning */
 .outfit-container {
     display: flex;
     flex-direction: row;
@@ -201,11 +183,11 @@ p {
 .outfit-tab {
     writing-mode: vertical-rl;
     text-align: center;
-    padding: 8px 5px;
+    padding: 15px 5px;
     background: #3a4f63;
     color: white;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 15px;
     font-family: Nunito;
     transform:scale(-1);
 }
@@ -217,18 +199,11 @@ p {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.outfit-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
 }
 .outfit-row {
+    margin-left: 2px;
     display: flex;
-    justify-content: center;
     gap: 10px;
     margin-bottom: 10px;
 }
@@ -238,22 +213,26 @@ p {
     max-height: 80px;
 
 }
-
 .accessories {
     display: flex;
     flex-direction: column;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 5px;
     text-align: left;
     font-size: 16px;
+    padding: 0px;
     font-weight: bold;
+}
+.accessories p{
+    margin: 0px;
+    text-align: left;
 }
 
 .accessory-img {
     width: 50px;
     height: auto;
     max-height: 50px;
-
 }
 /* images */
 .cloud-img {
@@ -270,5 +249,5 @@ p {
 .week-forecast-img {
     width: 25px;
     height: auto;
-    margin-left: 60px;
+    margin-left: 50px;
 }
