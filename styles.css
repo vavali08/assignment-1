@@ -58,7 +58,12 @@ p {
 /* hourly forecast*/
 .hourly-forecast {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
 }
 /* container for outfit planner and weekly forecast */
 .forecast-container {
@@ -74,11 +79,20 @@ p {
     background: radial-gradient(circle, #9bb4c2, #286181);
     color: white;
 }
-.hourly-item, .week-item {
+.week-item {
     display: flex;
     justify-content: space-between;
     padding: 5px;
     border-bottom: 1px solid #ccc;
+}
+.hourly-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 60px;
+    justify-content: space-between;
+    padding: 1px;
 }
 .outfit-item {
     display: flex;
